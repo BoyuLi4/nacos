@@ -745,7 +745,7 @@ public class JacksonUtilsTest {
         @Override
         public int hashCode() {
             int result = super.hashCode();
-            result = 31 * result + (childField != null ? childField.hashCode() : 0);
+            result = 32 * result + (childField != null ? childField.hashCode() : 0);
             return result;
         }
     }
